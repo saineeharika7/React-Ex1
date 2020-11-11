@@ -15,6 +15,8 @@ import StyleSheet from './components/StyleSheet';
 import InLine from './components/InLine';
 import './components/appStyle.css'
 import style from './components/appStyle.module.css'
+import Form from './components/Form';
+
 
 
 
@@ -24,10 +26,10 @@ import style from './components/appStyle.module.css'
 function App() {
   return (
     <div className="App">
-      <h1 className ="error">Error</h1>
+     {/* <h1 className ="error">Error</h1>
       <h1 className ={style.success}>Success</h1>
 
-      {/*<Greet name ="reese" />
+      <Greet name ="reese" />
      <Greet name ="shaw" />
      <Greet name ="fusco" />
      <Welcome name ='Root' /> 
@@ -44,7 +46,7 @@ function App() {
   <NameList />   
   <StyleSheet /> 
   <InLine />*/} 
-
+ <Form />
     </div>
   );
 }
