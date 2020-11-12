@@ -16,6 +16,7 @@ import InLine from './components/InLine';
 import './components/appStyle.css'
 import style from './components/appStyle.module.css'
 import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
 
 
 
@@ -26,7 +27,7 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-     {/* <h1 className ="error">Error</h1>
+      {/* <h1 className ="error">Error</h1>
       <h1 className ={style.success}>Success</h1>
 
       <Greet name ="reese" />
@@ -35,18 +36,19 @@ function App() {
      <Welcome name ='Root' /> 
      <Welcome name ='carter' /> 
      <Welcome name ='flinch' /> 
-  <Hello />
-  <Message />
-  <Counter />
-  <FunctionClick />
-  <ClassClick />
-  <EventBind />
-  <ParentComponent />
-  <UserGreeting />
-  <NameList />   
-  <StyleSheet /> 
-  <InLine />*/} 
- <Form />
+     <Hello />
+     <Message />
+     <Counter />
+     <FunctionClick />
+     <ClassClick />
+     <EventBind />
+     <ParentComponent />
+     <UserGreeting />
+     <NameList />   
+     <StyleSheet /> 
+     <InLine />
+      <Form />*/}
+      <LifecycleA />
     </div>
   );
 }
