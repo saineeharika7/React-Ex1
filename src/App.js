@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Refsdemo from './components/Refsdemo';
-  /*import Greet from './components/Greet'
+import FocusInput from './components/FocusInput';
+/*import Refsdemo from './components/Refsdemo';
+import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
@@ -56,8 +57,9 @@ function App() {
      <LifecycleA />
      <Fragment />
      <Table />
-     <ParentComp />*/}
-     <Refsdemo />
+     <ParentComp />
+     <Refsdemo />*/}
+     <FocusInput />
     </div>
   );
 }
