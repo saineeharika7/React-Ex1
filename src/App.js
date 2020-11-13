@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Refsdemo from './components/Refsdemo';
   /*import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
@@ -18,8 +19,9 @@ import style from './components/appStyle.module.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
 import Fragment from './components/Fragment'; 
-import Table from './components/Table'; */
-import ParentComp from './components/ParentComp'
+import Table from './components/Table'; 
+import ParentComp from './components/ParentComp'*/
+
 
 
 
@@ -53,8 +55,9 @@ function App() {
      <Form />
      <LifecycleA />
      <Fragment />
-     <Table />*/}
-     <ParentComp />
+     <Table />
+     <ParentComp />*/}
+     <Refsdemo />
     </div>
   );
 }
