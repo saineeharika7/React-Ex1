@@ -17,8 +17,9 @@ import './components/appStyle.css'
 import style from './components/appStyle.module.css'
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
-import Fragment from './components/Fragment'; */
-import Table from './components/Table';
+import Fragment from './components/Fragment'; 
+import Table from './components/Table'; */
+import ParentComp from './components/ParentComp'
 
 
 
@@ -51,8 +52,9 @@ function App() {
      <InLine />
      <Form />
      <LifecycleA />
-     <Fragment />*/}
-     <Table />
+     <Fragment />
+     <Table />*/}
+     <ParentComp />
     </div>
   );
 }
