@@ -1,6 +1,6 @@
 import React from 'react';
-import FRinput from './FRinput'
-class FRparentinput extends Component{
+import FRinput from './FRinput';
+class FRparentinput extends React.Component {
     constructor(){
         super()
         this.inputRef = React.createRef()        
