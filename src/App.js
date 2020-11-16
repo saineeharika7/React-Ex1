@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import FocusInput from './components/FocusInput';
-/*import Refsdemo from './components/Refsdemo';
+/*import FocusInput from './components/FocusInput';
+import Refsdemo from './components/Refsdemo';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
@@ -22,6 +22,7 @@ import LifecycleA from './components/LifecycleA';
 import Fragment from './components/Fragment'; 
 import Table from './components/Table'; 
 import ParentComp from './components/ParentComp'*/
+import FRparentinput from './components/FRparentinput'
 
 
 
@@ -58,8 +59,9 @@ function App() {
      <Fragment />
      <Table />
      <ParentComp />
-     <Refsdemo />*/}
-     <FocusInput />
+     <Refsdemo />
+     <FocusInput />*/}
+     <FRparentinput />
     </div>
   );
 }
