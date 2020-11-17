@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
-import ErrorBoundary from './components/ErrorBoundary';
-/*import PortalDemo from './components/PortalDemo';
+import CLickCounter from './components/CLickCounter';
+import HoverCounter from './components/HoverCounter';
+/*import ErrorBoundary from './components/ErrorBoundary';
+import PortalDemo from './components/PortalDemo';
 import FocusInput from './components/FocusInput';
 import Refsdemo from './components/Refsdemo';
 import Greet from './components/Greet'
@@ -24,8 +26,8 @@ import LifecycleA from './components/LifecycleA';
 import Fragment from './components/Fragment'; 
 import Table from './components/Table'; 
 import ParentComp from './components/ParentComp'
-import FRparentinput from './components/FRparentinput'*/
-import Hero from './components/Hero'
+import FRparentinput from './components/FRparentinput'
+import Hero from './components/Hero'*/
 
 
 
@@ -65,7 +67,7 @@ function App() {
      <Refsdemo />
      <FocusInput />
      <FRparentinput />
-     <PortalDemo />*/}
+     <PortalDemo />
       <ErrorBoundary>
         <Hero heroName="joker" />
 
@@ -75,8 +77,9 @@ function App() {
         </ErrorBoundary>
         <ErrorBoundary>
         <Hero heroName="Reese" />
-      </ErrorBoundary>
-
+      </ErrorBoundary>*/}
+    <CLickCounter name ="Reese"/>
+    <HoverCounter name ="Neal"/>
     </div>
   );
 }
